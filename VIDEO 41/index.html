@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UltraEdit clone</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;        
+        }
+        .top-banner{
+            background-color: lab(97.14% -21.56 94.48);
+            color: black;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        /* Navbar */
+        .navbar {
+            justify-content: space-between;
+            display: flex;
+            background: #fff;
+            align-items: center;
+            padding:15px 40px ;
+            border: 2px solid black;
+            
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .circle{
+            background: orange;
+            color: black;
+            padding: 8px;
+            border-radius: 50%;
+            border: 2px solid black;
+            font-size: larger;
+            font-style: italic;
+            font-weight: bold;
+        }
+        .menu{
+            display: flex;
+            list-style: none;
+            gap: 20px;
+            
+        }
+        .nav-right{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .download-btn{
+            background: orange;
+            border: none;
+            padding: 8px 15px;
+            color: white;
+            cursor: pointer;
+        }
+        .main h1{
+            font-size: 40px;
+            margin-bottom: 15px;
+            text-decoration: underline;
+            text-decoration-color: yellow;
+        }
+        .main p{
+            margin-bottom: 20px;
+            color: grey;
+            
+        }
+        .big-btn{
+            background: orange;
+            border: none;
+            padding: 15px 10px;
+            font-size: 20px;
+            cursor: pointer;
+            margin-bottom: 10px;
+            display: flex;
+            text-align: center;
+        }
+        .section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 40vh;
+        }
+    </style>
+</head>
+<body>
+    <!-- top banner -->
+     <div class="top-banner">
+        UE Core & Enterprise Subscriptions: Get 10% Off on your second year 
+        Buy Now →
+     </div>
+
+     <!-- Navbar -->
+      <nav class="navbar">
+        <div class="logo">
+            <span class="circle">UE</span>
+            <span>UltraEdit</span>
+        </div>
+        <ul class="menu">
+            <li>Products</li>
+            <li>Buy</li>
+            <li>Renew</li>
+            <li>Support</li>
+            <li>Learn</li>
+            <li>Company</li>
+        </ul>
+        <div class="nav-right">
+            <button class="download-btn">Download</button>
+            <span>English</span>
+        </div>
+      </nav>
+      <!-- Main section -->
+       <section class="section">
+        <h1>Download UltraEdit for Windows</h1>
+        <p>If you’re new, enjoy a 7-day free trial with full access to all features.</p>
+        <button class="big-btn">Download 64-Bit</button>
+        <p class="version">UltraEdit v2025.2 (released 2026-04-10) | Latest changes </p>
+       </section>
+</body>
+</html>
